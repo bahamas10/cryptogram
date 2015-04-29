@@ -1,0 +1,33 @@
+{
+  "name": "cryptogram",
+  "version": "0.0.0",
+  "description": "cryptogram puzzle solver helper script",
+  "main": "cryptogram.js",
+  "bin": {
+    "cryptogram": "./bin/cryptogram.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/cryptogram.git"
+  },
+  "keywords": [
+    "cryptogram",
+    "puzzle",
+    "solver",
+    "translate",
+    "text"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahamas10/cryptogram/issues"
+  },
+  "homepage": "https://github.com/bahamas10/cryptogram",
+  "dependencies": {
+    "latest": "^0.2.0",
+    "posix-getopt": "^1.1.0"
+  }
+}
